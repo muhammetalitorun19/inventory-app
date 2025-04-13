@@ -4,3 +4,6 @@ services:
     env: java
     buildCommand: mvn clean install
     startCommand: java -jar target/inventory-1.0.0.jar
+    envVars:
+      - key: JAVA_HOME
+        value: /opt/render/project/java
