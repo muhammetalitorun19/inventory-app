@@ -55,7 +55,7 @@ public class JwtTokenProvider {
             Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(token);
             return true;
         } catch (JwtException | IllegalArgumentException e) {
-            System.out.println("Geçersiz JWT token: " + e.getMessage());
+            System.out.println("Geçersiz JWT token2: " + e.getMessage());
             return false;
         }
     }
