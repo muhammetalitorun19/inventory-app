@@ -1,6 +1,5 @@
 services:
   - type: web
     name: inventory-app
-    env: java
     buildCommand: "./mvnw clean install"
     startCommand: "java -jar target/inventory-1.0.0.jar"
