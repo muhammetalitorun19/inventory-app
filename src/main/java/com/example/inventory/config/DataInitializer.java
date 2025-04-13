@@ -23,10 +23,10 @@ public class DataInitializer implements CommandLineRunner {
     public void run(String... args) {
         try {
             // ADMIN rolü varsa al, yoksa oluştur
-            Role adminRole = roleRepository.findByName("ROLE_ADMIN")
+            Role adminRole = roleRepository.findByName("ADMIN")
                     .orElseGet(() -> {
-                        System.out.println("🛠 ROLE_ADMIN oluşturuluyor...");
-                        return roleRepository.save(new Role(null, "ROLE_ADMIN"));
+                        System.out.println("🛠 ADMIN oluşturuluyor...");
+                        return roleRepository.save(new Role(null, "ADMIN"));
                     });
 
             // ADMIN kullanıcı zaten varsa bilgi ver
