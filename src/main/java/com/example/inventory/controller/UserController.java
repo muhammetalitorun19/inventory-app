@@ -16,7 +16,7 @@ public class UserController {
     private UserRepository userRepository;
 
     // ✅ Tüm kullanıcıları listele (sadece ADMIN erişebilir)
-    @GetMapping
+    @GetMapping("/allUsers")
     @PreAuthorize("hasRole('ADMIN')")
     public List<User> getAllUsers() {
         return userRepository.findAll();
