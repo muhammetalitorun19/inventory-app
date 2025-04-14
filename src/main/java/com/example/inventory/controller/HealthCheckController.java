@@ -11,7 +11,7 @@ public class HealthCheckController {
         return "✅ API çalışıyor! Hoş geldin.";
     }
 
-    @GetMapping("/health")
+    @GetMapping("/api/health")
     public String healthCheck() {
         return "OK ✅";
     }
