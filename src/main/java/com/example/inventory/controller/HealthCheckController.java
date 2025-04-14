@@ -8,6 +8,7 @@ public class HealthCheckController {
 
     @GetMapping("/")
     public String healthCheck() {
-        return "Uygulama çalışıyor";
+        return "OK ✅";
     }
 }
+
