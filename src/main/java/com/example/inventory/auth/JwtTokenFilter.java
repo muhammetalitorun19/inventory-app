@@ -45,7 +45,7 @@ public class JwtTokenFilter extends OncePerRequestFilter {
 
             if (jwtTokenProvider.validateToken(token)) {
                 String username = jwtTokenProvider.getUsernameFromToken(token);
-                System.out.println("✅ JWT ile gelen kullanıcı adı: " + username);
+                System.out.println("✅ JWT ile gelen kullanıci adı: " + username);
 
                 UserDetails userDetails = userService.loadUserByUsername(username);
                 System.out.println("✅ Kullanıcının yetkileri: " + userDetails.getAuthorities());
