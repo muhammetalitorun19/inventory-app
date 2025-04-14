@@ -19,9 +19,13 @@ public class SecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         return http
                 .csrf(AbstractHttpConfigurer::disable)
-                .authorizeHttpRequests(auth -> auth.anyRequest().permitAll())
+                .authorizeHttpRequests(auth -> auth
+                        .requestMatchers("/api/health", "/api/auth/**").permitAll() // izin verilenler
+                        .anyRequest().authenticated() // diğerleri JWT ister
+                )
                 .build();
     }
+
 
     // ✅ AuthController için gerekli olan AuthenticationManager bean'i
     @Bean
