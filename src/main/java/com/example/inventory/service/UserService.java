@@ -22,7 +22,7 @@ public class UserService implements UserDetailsService {
         User user = userRepository
                 .findByUsername(username)
                 .orElseThrow(() -> {
-                    System.out.println("❌ Kullanıcı bulunamadı: " + username);
+                    System.out.println("❌ Kullanıcı bulunamadi: " + username);
                     return new UsernameNotFoundException("Kullanıcı bulunamadı: " + username);
                 });
 
