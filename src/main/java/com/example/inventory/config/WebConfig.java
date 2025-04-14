@@ -1,3 +1,5 @@
+package com.example.inventory.config;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -12,7 +14,10 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:4200", "http://localhost:8080")
+                        .allowedOrigins(
+                                "http://localhost:8080",
+                                "https://inventory-app-production-76ef.up.railway.app"
+                        )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
@@ -20,3 +25,4 @@ public class WebConfig {
         };
     }
 }
+
