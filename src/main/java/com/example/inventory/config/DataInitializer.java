@@ -21,23 +21,27 @@ public class DataInitializer implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        // Admin rolü yoksa oluştur
-        Role adminRole = roleRepository.findByName("ROLE_ADMIN")
-                .orElseGet(() -> roleRepository.save(new Role(null, "ROLE_ADMIN")));
+        try {
+            // Admin rolü yoksa oluştur
+            Role adminRole = roleRepository.findByName("ROLE_ADMIN")
+                    .orElseGet(() -> roleRepository.save(new Role(null, "ROLE_ADMIN")));
 
-        // Admin kullanıcısı yoksa oluştur
-        if (!userRepository.existsByUsername("admin")) {
-            User admin = User.builder()
-                    .username("admin")
-                    .email("admin@example.com")
-                    .password(passwordEncoder.encode("admin123"))
-                    .roles(Set.of(adminRole))
-                    .build();
+            if (!userRepository.existsByUsername("admin")) {
+                User admin = User.builder()
+                        .username("admin")
+                        .email("admin@example.com")
+                        .password(passwordEncoder.encode("admin123"))
+                        .roles(Set.of(adminRole))
+                        .build();
+                userRepository.save(admin);
+                System.out.println("✅ Admin kullanıcısı oluşturuldu.");
+            } else {
+                System.out.println("ℹ️ Admin zaten mevcut.");
+            }
 
-            userRepository.save(admin);
-            System.out.println("✅ Admin kullanıcısı oluşturuldu.");
-        } else {
-            System.out.println("ℹ️ Admin zaten mevcut.");
+        } catch (Exception e) {
+            System.err.println("❌ DataInitializer çalışırken hata oluştu:");
+            e.printStackTrace();
         }
     }
 }
