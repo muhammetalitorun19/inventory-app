@@ -9,10 +9,12 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
+import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 
+@Component // <-- Bu satırı EKLEDİK
 public class JwtTokenFilter extends OncePerRequestFilter {
 
     private final JwtTokenProvider jwtTokenProvider;
@@ -32,7 +34,6 @@ public class JwtTokenFilter extends OncePerRequestFilter {
         String path = request.getRequestURI();
         System.out.println("📥 İstek geldi: " + path);
 
-        // /api/auth/** endpointlerini JWT kontrolünden muaf tut
         if (path.startsWith("/api/auth")) {
             filterChain.doFilter(request, response);
             return;
