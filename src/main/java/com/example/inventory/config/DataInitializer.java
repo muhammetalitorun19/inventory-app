@@ -34,7 +34,7 @@ public class DataInitializer implements CommandLineRunner {
                         .roles(Set.of(adminRole))
                         .build();
                 userRepository.save(admin);
-                System.out.println("✅ Admin kullanıcısı oluşturuldu.");
+                System.out.println("✅ Admin kullanıcısı oluşturuldo.");
             } else {
                 System.out.println("ℹ️ Admin zaten mevcut.");
             }
