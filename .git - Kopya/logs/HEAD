@@ -1,0 +1,100 @@
+0000000000000000000000000000000000000000 1acb225243cbe0bb6e3a0caa5d5300867d599cc0 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744196800 +0300	commit (initial): İlk commit: envanter uygulaması eklendi
+1acb225243cbe0bb6e3a0caa5d5300867d599cc0 0000000000000000000000000000000000000000 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744196876 +0300	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 1acb225243cbe0bb6e3a0caa5d5300867d599cc0 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744196876 +0300	Branch: renamed refs/heads/master to refs/heads/main
+1acb225243cbe0bb6e3a0caa5d5300867d599cc0 0000000000000000000000000000000000000000 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744197595 +0300	Branch: renamed refs/heads/main to refs/heads/main
+1acb225243cbe0bb6e3a0caa5d5300867d599cc0 1acb225243cbe0bb6e3a0caa5d5300867d599cc0 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744197595 +0300	Branch: renamed refs/heads/main to refs/heads/main
+1acb225243cbe0bb6e3a0caa5d5300867d599cc0 9c6a321101cc5e4a0ba393a15e28818d5cf58e01 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744200658 +0300	commit: Add Maven Wrapper files for Render deploy
+9c6a321101cc5e4a0ba393a15e28818d5cf58e01 e4ffe7768ec3873ccd9cbaf94900a085f8a6489e Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744200950 +0300	commit: Make mvnw executable
+e4ffe7768ec3873ccd9cbaf94900a085f8a6489e 624b4f66cbbbdd35bd0e7a7c180c96de0a55e4fd Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744207595 +0300	commit: Add Render configuration file
+624b4f66cbbbdd35bd0e7a7c180c96de0a55e4fd 4d267f75f7f37af44efab1dfe50a9e5c879b026e Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744208882 +0300	commit: Add .render.yaml for Render deploy
+4d267f75f7f37af44efab1dfe50a9e5c879b026e 9b8f809f91dda7b20202270f7c67fdac71a860ed Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744209144 +0300	commit: Fix .render.yaml location and name
+9b8f809f91dda7b20202270f7c67fdac71a860ed 7089dabf2eb5588e149890bccff8e15c46068ea7 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744209320 +0300	commit: Move .render.yaml to project root
+7089dabf2eb5588e149890bccff8e15c46068ea7 f0f3f0bd41bc743e92a59d4da743449df84205c2 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744209469 +0300	commit: Fix JAVA_HOME in Render config
+f0f3f0bd41bc743e92a59d4da743449df84205c2 b833aa3f8df53077cf24df162a87ad78ac1438cb Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744209658 +0300	commit: Move .render.yaml to root directory
+b833aa3f8df53077cf24df162a87ad78ac1438cb 083dd08fe19ee067a4def396425e5fe718819faa Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744210010 +0300	commit: Fix JAVA_HOME path for Render
+083dd08fe19ee067a4def396425e5fe718819faa 2cbd147779d7271c1dc214383b069495b85b7a7b Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744538117 +0300	commit: Yerel değişiklikler
+2cbd147779d7271c1dc214383b069495b85b7a7b 0665bad1fff81388ebcc12069c8f09d2219bdd79 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744538128 +0300	pull origin main --rebase (start): checkout 0665bad1fff81388ebcc12069c8f09d2219bdd79
+0665bad1fff81388ebcc12069c8f09d2219bdd79 2a9cba67b182d7a0bb038da3e9ce15bcb6d4e6f3 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744538212 +0300	rebase (continue): Yerel değişiklikler
+2a9cba67b182d7a0bb038da3e9ce15bcb6d4e6f3 2a9cba67b182d7a0bb038da3e9ce15bcb6d4e6f3 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744538382 +0300	rebase (finish): returning to refs/heads/main
+2a9cba67b182d7a0bb038da3e9ce15bcb6d4e6f3 6bad33294a1ba388eecc43b619e4b37b47ee644e Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744538827 +0300	commit: rendereklendi
+6bad33294a1ba388eecc43b619e4b37b47ee644e 8bddd8dda232bbebb5f368a8880a6bc06d93224b Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744539882 +0300	commit: Add Maven Wrapper manually
+8bddd8dda232bbebb5f368a8880a6bc06d93224b b1d1ec560f06700015c0fe427b4d8a601ddf9441 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744540572 +0300	commit: Fix execute permission on mvnw
+b1d1ec560f06700015c0fe427b4d8a601ddf9441 46a2f910489562bc28d50f18c0ca7a69f50ffe84 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744541666 +0300	commit: Recreated correct Maven wrapper for Linux deploy
+46a2f910489562bc28d50f18c0ca7a69f50ffe84 e9bfeecc68bc6659c337c076e9eff3ad05d2ef92 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744542240 +0300	commit: Railway uyumlu application.properties ayarlandı
+e9bfeecc68bc6659c337c076e9eff3ad05d2ef92 680a9150895ef3bd090cf29a91a8bba275980d8c Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744544879 +0300	commit: Railway uyumlu application.properties ayarlandı
+680a9150895ef3bd090cf29a91a8bba275980d8c 260b22ce015e90095434f18afdde14b32076c3a9 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744545331 +0300	commit: test
+260b22ce015e90095434f18afdde14b32076c3a9 409312e9a60440a0fa1276f8c09ab5a785141fb7 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744545459 +0300	commit: Railway uyumlu application.properties ayarlan256
+409312e9a60440a0fa1276f8c09ab5a785141fb7 696e7958835f6cbab9adefafc9a8440df19da465 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744546450 +0300	commit: Railway uyumlu application.properties ayarlan2567
+696e7958835f6cbab9adefafc9a8440df19da465 8635548a541a5f093220552fda13ecf3384ad088 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744547219 +0300	commit: Railway uyumlu application.properties ayarlan256789
+8635548a541a5f093220552fda13ecf3384ad088 10f981d2f4f43e6dd7208c48f24c8f8c1be972c0 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744547552 +0300	commit: Remove target directory from Git tracking
+10f981d2f4f43e6dd7208c48f24c8f8c1be972c0 026ba0a76acb6c6851b5fcf485ecfd1e1343f770 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744548428 +0300	commit: Linux uyumlu mvnw dosyaları eklendillll
+026ba0a76acb6c6851b5fcf485ecfd1e1343f770 3289b13f8cbd2fa72854560199af018fc1b66486 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744548829 +0300	commit: Linux uyumlu mvnw dosyaları eklendilllli
+3289b13f8cbd2fa72854560199af018fc1b66486 f553f4086055aecd8eab7808a8c3de3905baaf1e Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744548874 +0300	commit: Linux uyumlu mvnw dosyaları eklendillllil
+f553f4086055aecd8eab7808a8c3de3905baaf1e 580fb896bb85961c4067e221cb2482d63455c30c Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744549618 +0300	commit: emin
+580fb896bb85961c4067e221cb2482d63455c30c 67f49472381ce64a1e32ae9d98b27eab704821d6 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744550166 +0300	commit: emin2
+67f49472381ce64a1e32ae9d98b27eab704821d6 f1eedcf1b97ce8b9b5b49a9d425c2013ac9b4327 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744550560 +0300	commit: emin3
+f1eedcf1b97ce8b9b5b49a9d425c2013ac9b4327 8f7a5dea720ed3c422e2b31f8460e9503eaa25ab Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744551092 +0300	commit: emin4
+8f7a5dea720ed3c422e2b31f8460e9503eaa25ab 51ad320d1381fe6cab061d9f2e3bc023900d9d71 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744551384 +0300	commit: emin5
+51ad320d1381fe6cab061d9f2e3bc023900d9d71 f81a1179de2c1918f9dc61975546dccd85056af9 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744552482 +0300	commit: emin6
+f81a1179de2c1918f9dc61975546dccd85056af9 d25c27f1ece32fe63b4500730333b8847e78882b Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744553230 +0300	commit: emin7
+d25c27f1ece32fe63b4500730333b8847e78882b 4790b4b3bb55b7b44c27c6f73855aff0d3c5b83b Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744553579 +0300	commit: emin8
+4790b4b3bb55b7b44c27c6f73855aff0d3c5b83b a80312ffce6bfd232afd926025d25a9c33e8c5c5 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744554101 +0300	commit: emin9
+a80312ffce6bfd232afd926025d25a9c33e8c5c5 0826aea37c0204612817b9363bfb62be065d45d7 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744554333 +0300	commit: emin10
+0826aea37c0204612817b9363bfb62be065d45d7 7a13b161dd5c51ca562fce6e34d2eb1716248771 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744554689 +0300	commit: emin11
+7a13b161dd5c51ca562fce6e34d2eb1716248771 426d7920d032e6de1c6b9dda54764b54acced7b9 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744555295 +0300	commit: emin12
+426d7920d032e6de1c6b9dda54764b54acced7b9 c0991bd950e9bcb0c71105120af77e2f923df7f5 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744555904 +0300	commit: emin13
+c0991bd950e9bcb0c71105120af77e2f923df7f5 e6c551437e1ff6684e243c5a2591d261bbe5aeb1 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744555987 +0300	commit: emin13
+e6c551437e1ff6684e243c5a2591d261bbe5aeb1 20da8647da9931b0d244093ec032033750740ded Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744556444 +0300	commit: emin14
+20da8647da9931b0d244093ec032033750740ded 5111dd679bd65b17ae078a2f2d3efcb83a7eefee Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744556768 +0300	commit: emin15
+5111dd679bd65b17ae078a2f2d3efcb83a7eefee 59b46b6fbb783d07e3b10ae892cd29dda330e393 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744557201 +0300	commit: emin16
+59b46b6fbb783d07e3b10ae892cd29dda330e393 c9929d670273763715f2695a95de27a81c69f606 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744557440 +0300	commit: emin17
+c9929d670273763715f2695a95de27a81c69f606 db1e6c3b418b3fc407ec2e22a9de99d73fc9bdd0 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744558290 +0300	commit: emin18
+db1e6c3b418b3fc407ec2e22a9de99d73fc9bdd0 9c691861e1a0cfdafa1ae17308501eb11e047c3e Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744558516 +0300	commit: emin19
+9c691861e1a0cfdafa1ae17308501eb11e047c3e 7ffb3e239e7763667f0b948cc1c06f1085d6b913 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744611411 +0300	commit: mat
+7ffb3e239e7763667f0b948cc1c06f1085d6b913 4e52de0101f825ca2324bb9c7a493a542e344cf3 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744612951 +0300	commit: mat1
+4e52de0101f825ca2324bb9c7a493a542e344cf3 672a7d6f9d14e5e48e701907c5b484e9e292afa1 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744616072 +0300	commit: mat2
+672a7d6f9d14e5e48e701907c5b484e9e292afa1 dafe6fb4dcd1b632b06c603cc8eb22d938523fb0 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744616736 +0300	commit: mat3
+dafe6fb4dcd1b632b06c603cc8eb22d938523fb0 73b8c46e593a887cd48b5425f2e8eeb816425158 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744617142 +0300	commit: mat4
+73b8c46e593a887cd48b5425f2e8eeb816425158 f42f2aaa89aec91ec13f0e0623faf0906bb7bfb7 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744617514 +0300	commit: mat5
+f42f2aaa89aec91ec13f0e0623faf0906bb7bfb7 6aa39be031c5ea34f67aa6305160b48bd8e7cc34 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744618089 +0300	commit: mat6
+6aa39be031c5ea34f67aa6305160b48bd8e7cc34 2e0cb8802f129112b5bb63bdfca76bcb8a7ed060 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744618399 +0300	commit: mat7
+2e0cb8802f129112b5bb63bdfca76bcb8a7ed060 a43c7d3f20b03e867785575190e1c3e0e9bfb31b Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744618828 +0300	commit: mat8
+a43c7d3f20b03e867785575190e1c3e0e9bfb31b 6d41ec8a23e35b56bfce48904defadce3ca91bb0 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744619047 +0300	commit: mat9
+6d41ec8a23e35b56bfce48904defadce3ca91bb0 b50d287b1400fd9bf9627286066363c8371b6352 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744619251 +0300	commit: mat10
+b50d287b1400fd9bf9627286066363c8371b6352 0c3b3b3d744f7afb558742a333360a315e71fa56 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744619883 +0300	commit: mat11
+0c3b3b3d744f7afb558742a333360a315e71fa56 c666b70b7c3b0b657ad6787c472940230b51b2af Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744620186 +0300	commit: mat12
+c666b70b7c3b0b657ad6787c472940230b51b2af 4076263d6b9d432388175151a2a8c37a756d12d3 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744624681 +0300	commit: mat13
+4076263d6b9d432388175151a2a8c37a756d12d3 bd8e27d3b6e545ea3646648061738dfbb703dc98 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744625486 +0300	commit: mat14
+bd8e27d3b6e545ea3646648061738dfbb703dc98 da8fcd5a4dcc7c6b20b0888a17ac96c6156182b8 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744626128 +0300	commit: mat15
+da8fcd5a4dcc7c6b20b0888a17ac96c6156182b8 def8255e20ed111fd6f985e4f3ace15f2d69a88f Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744626739 +0300	commit: mat16
+def8255e20ed111fd6f985e4f3ace15f2d69a88f 4690f8b987d7e7ea3db7ca88fcf523ccc3534f1a Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744627411 +0300	commit: mat17
+4690f8b987d7e7ea3db7ca88fcf523ccc3534f1a 049b84d0a62a77e16943ad5f6cc7f0791bfe0fc3 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744628263 +0300	commit: mat18
+049b84d0a62a77e16943ad5f6cc7f0791bfe0fc3 2f2afc342a90fb9631b5015e20d72c9317711c2d Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744628707 +0300	commit: mat19
+2f2afc342a90fb9631b5015e20d72c9317711c2d 3ea559c3314678463cdfe1fe151a2449215ad066 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744629511 +0300	commit: mat20
+3ea559c3314678463cdfe1fe151a2449215ad066 b66c7cd8a35cda7fc03eb27d4c78990ce8ebdfef Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744629704 +0300	commit: mat21
+b66c7cd8a35cda7fc03eb27d4c78990ce8ebdfef 2328da9839a166731579945836138698e0b3d78a Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744630019 +0300	commit: mat22
+2328da9839a166731579945836138698e0b3d78a e6c01f9d9a1da1f1bc7b37a33b309c6cd123f774 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744630234 +0300	commit: mat23
+e6c01f9d9a1da1f1bc7b37a33b309c6cd123f774 ff41bf49b94dc0d8e0fede444712d7ff9ad303fc Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744630814 +0300	commit: mat24
+ff41bf49b94dc0d8e0fede444712d7ff9ad303fc 24efaedbacf578adbdcfc2764010b767b04daa98 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744631050 +0300	commit: mat25
+24efaedbacf578adbdcfc2764010b767b04daa98 5787c3a73a5e334c485785b077881d359f2be440 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744631361 +0300	commit: mat26
+5787c3a73a5e334c485785b077881d359f2be440 b624bf13f0725d5623407995359c1a696871f708 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744632702 +0300	commit: mat27
+b624bf13f0725d5623407995359c1a696871f708 3343cabda260cbe5e947c7e7152a283a3641ccd1 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744632900 +0300	commit: mat28
+3343cabda260cbe5e947c7e7152a283a3641ccd1 cb7e1456f092ed77986ba6797823fbd4c408295e Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744633496 +0300	commit: mat29
+cb7e1456f092ed77986ba6797823fbd4c408295e 0db6d1da16dfada44da7d5253eda9e62b1af06da Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744633854 +0300	commit: mat30
+0db6d1da16dfada44da7d5253eda9e62b1af06da 2b26cac157ed0e46151eb9621dcecf87de7c0f81 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744634121 +0300	commit: mat31
+2b26cac157ed0e46151eb9621dcecf87de7c0f81 a5bd06d04dfdabb1d28a0a5ae31356779bf25487 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744635988 +0300	commit: mat32
+a5bd06d04dfdabb1d28a0a5ae31356779bf25487 6638d5c9380cf35331ae0d468ee4569df7af9aea Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744636323 +0300	commit: mat33
+6638d5c9380cf35331ae0d468ee4569df7af9aea 62cb9d36f1371f9e3912fcb05baddb36d51a2d24 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744637416 +0300	commit: mat34
+62cb9d36f1371f9e3912fcb05baddb36d51a2d24 eb61f44d783d040ac6e8897060fc1a00634f0e57 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744637800 +0300	commit: mat35
+eb61f44d783d040ac6e8897060fc1a00634f0e57 5fe0189e4f4f689d8a5c35de2407799057394c1d Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744638143 +0300	commit: mat36
+5fe0189e4f4f689d8a5c35de2407799057394c1d 3963ce55c4d35850dd8b038a1d693fe15725d511 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744638626 +0300	commit: mat38
+3963ce55c4d35850dd8b038a1d693fe15725d511 751aa5e8f62c1662060190b83c80a8ac9939bbd2 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744639177 +0300	commit: mat39
+751aa5e8f62c1662060190b83c80a8ac9939bbd2 8768d397c2ae7b911348c342f3ad65d31876e265 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744639610 +0300	commit: mat40
+8768d397c2ae7b911348c342f3ad65d31876e265 d6572a1d3255d135843c35e3968697a7e834c69e Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1744642209 +0300	commit: mat41
+d6572a1d3255d135843c35e3968697a7e834c69e f8e63dc666ca2904151c9f0501e6b2c25b0469d0 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1745154348 +0300	commit: mat43
+f8e63dc666ca2904151c9f0501e6b2c25b0469d0 c17242ffc14ce7bbdf029a30ab10d0befd142996 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1745154730 +0300	commit: mat45
+c17242ffc14ce7bbdf029a30ab10d0befd142996 dfef1587a27b1330a4ac5b84abfe140eceeba51c Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1745156268 +0300	commit: mat50
+dfef1587a27b1330a4ac5b84abfe140eceeba51c 5368234bea86e62a8a39c811e2a7c3ee00a5ed7d Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1745157986 +0300	commit: mat51
+5368234bea86e62a8a39c811e2a7c3ee00a5ed7d 0912c3ab7bb2d02e557cfa764df06c2c67c561cd Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1745161206 +0300	commit: mat52
+0912c3ab7bb2d02e557cfa764df06c2c67c561cd b76df200bd3e36358868a53377b0cd7eb8f28f87 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1745161744 +0300	commit: mat53
+b76df200bd3e36358868a53377b0cd7eb8f28f87 194638c53a44bdfb76771771347910c0d61fff87 Muhammet Ali Torun <muhammetalitorun19@gmail.com> 1745162186 +0300	commit: mat55
